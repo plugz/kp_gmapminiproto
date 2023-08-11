@@ -1,0 +1,133 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5fef8f26-9ae8-4390-82c8-0016fff691d8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 41.91 35.56) (size 41.91 31.75) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ea05b52)
+    (property "Sheetname" "teensy" (at 41.91 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "teensy.kicad_sch" (at 41.91 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 35.56) (size 41.91 30.48) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ea05b87)
+    (property "Sheetname" "buttons" (at 107.95 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "buttons.kicad_sch" (at 107.95 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 167.64 36.83) (size 52.07 29.21) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ea05be1)
+    (property "Sheetname" "leds" (at 167.64 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "leds.kicad_sch" (at 167.64 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 233.68 36.83) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ea05c18)
+    (property "Sheetname" "faders" (at 233.68 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "faders.kicad_sch" (at 233.68 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 236.22 87.63) (size 36.83 35.56) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ea27d80)
+    (property "Sheetname" "faders_ics" (at 236.22 86.9184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "faders_ics.kicad_sch" (at 236.22 123.7746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 118.11 88.9) (size 33.02 30.48) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ea84295)
+    (property "Sheetname" "buttons_ics" (at 118.11 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "buttons_ics.kicad_sch" (at 118.11 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 168.91 88.9) (size 53.34 33.02) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005eaf7f3c)
+    (property "Sheetname" "leds_ics" (at 168.91 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "leds_ics.kicad_sch" (at 168.91 122.5046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kp_gmapminiproto"
+        (path "/5fef8f26-9ae8-4390-82c8-0016fff691d8" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
